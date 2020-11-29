@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+
+/*place to find the icons
+https://iconify.design/icon-sets/ri/user-2-line.html
+*/
+
 ul {
     list-style: none;
 }
@@ -26,4 +31,21 @@ html {
 a.icon {
     display: block;
     padding: 20px;
+}
+
+.icons-under-logo {
+    margin: 20px;
+    min-width: 50px;
+    max-width: 50px;
+    height: 400px;
+    background-color: red;
+}
+
+.Icon-side-bar {
+    z-index: 16;
+}
+
+.iconify {
+    width: 75px;
+    height: 75px;
 }
