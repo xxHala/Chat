@@ -1,0 +1,54 @@
+ this for general website almoste all the same*
+for hamburger menu:
+<div class> 
+//bulit in library//
+<i class="icon ion-md menu> </i>
+
+**every thing need to be in continer/sections**
+
+styling: 
+
+"Universal Selectors:"
+
+*,*::before
+*::after
+{
+
+margin:0 ,
+padding:0
+box-sizing:inherit}
+
+html{
+font-family:
+font-size
+box-sizing:border-box
+
+}
+a{text-decoration:none}
+p{
+font-size:1.6rem 
+}
+ul
+{list-style:none}
+img{
+
+max-width:100%
+width:100%
+height:auto
+}
+
+
+section/continer:
+{
+padding : 5rem 0 ; //this gives me some spacing for top and bottom
+}
+header"where the menu bar and log is"
+{
+width:100%
+height:5rem
+position:absoulte;
+top:0
+left:0
+z-index: }
+
+}
