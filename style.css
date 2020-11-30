@@ -14,7 +14,6 @@ a {
 
 html {
     font-family: "Public Sans", sans-serif;
-    position: relative;
 }
 
 a.icon {
@@ -90,14 +89,14 @@ ul.bottom-icon {
     .side-menu-bar {
         align-items: center;
         bottom: 0;
-        height: 60px;
-        width: auto;
+        height: 100;
+        width: 100%;
         display: flex;
         flex-direction: row;
         border-top: 1px solid #7e7e95;
-        justify-content: space-between;
+        justify-content: space-around;
     }
-    .logo-img {
+    .nav-icon {
         display: none;
     }
     ul.Icon-side-bar {
@@ -109,13 +108,33 @@ ul.bottom-icon {
         padding: 0;
         margin-left: 0;
     }
-    .nav-item {
-        width: 10vh;
+    .nav-item img {
+        width: 58px;
+        height: 58;
     }
     .nav-dark {
         display: none;
     }
+    .nav-item {
+        width: 100px;
+        height: 100px;
+    }
+    .Curentt {
+        padding: 0;
+    }
     .global {
         display: none;
+    }
+    .icons-under-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: auto;
+    }
+    a.nav-link {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
