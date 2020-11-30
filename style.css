@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-
-/*place to find the icons
-https://iconify.design/icon-sets/ri/user-2-line.html
-*/
-
 ul {
     list-style: none;
 }
@@ -33,26 +28,35 @@ html {
 }
 
 a.icon {
+    align-items: center;
     display: block;
+    text-align: center;
     padding: 20px;
 }
 
 ul.Icon-side-bar {
+    padding: 7rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.far {
-    width: 24px;
-    height: 24px;
+.nav-icon {
+    width: 100%;
+    text-align: center;
 }
+
+
+/*
+.nav-img {
+    fill: #878a92;
+}
+*/
 
 .nav-link {
     text-align: center;
     font-size: 24px;
-    color: #878a92;
     width: 56px;
     height: 56px;
     line-height: 56px;
@@ -81,4 +85,20 @@ ul.Icon-side-bar {
     height: 56px;
     justify-content: center;
     display: flex;
+}
+
+img.user-pro {
+    width: 36px;
+    height: 36px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+
+ul.bottom-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
