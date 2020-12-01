@@ -16,10 +16,6 @@ html {
     font-family: "Public Sans", sans-serif;
 }
 
-a.icon {
-    padding: 10px 20px;
-}
-
 ul.Icon-side-bar {
     padding: 10;
     display: flex;
@@ -72,15 +68,6 @@ img.user-pro {
     background-color: #ffff;
 }
 
-ul.bottom-icon {
-    display: flex;
-    /* padding: 7px; */
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    /* text-align: center; */
-}
-
 .nav-link:active {
     border: 20px solid #333b78c7;
 }
@@ -89,28 +76,28 @@ ul.bottom-icon {
     .side-menu-bar {
         align-items: center;
         bottom: 0;
+        position: fixed;
         height: 100;
         width: 100%;
         display: flex;
         flex-direction: row;
         border-top: 1px solid #7e7e95;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .nav-icon {
         display: none;
     }
     ul.Icon-side-bar {
         display: flex;
-        margin: 2;
         flex-direction: row;
-        justify-content: center;
         align-items: space-between;
-        padding: 0;
-        margin-left: 0;
     }
     .nav-item img {
         width: 58px;
-        height: 58;
+        height: 58px;
+    }
+    img.user-pro {
+        right: 20px;
     }
     .nav-dark {
         display: none;
@@ -120,16 +107,14 @@ ul.bottom-icon {
         height: 100px;
     }
     .Curentt {
-        padding: 0;
+        padding: 5PX;
     }
     .global {
         display: none;
     }
     .icons-under-logo {
-        display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        width: auto;
+        width: 100%;
     }
     a.nav-link {
         width: 100%;
