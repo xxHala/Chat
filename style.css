@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 ul {
@@ -15,6 +16,9 @@ a {
 html {
     font-family: "Public Sans", sans-serif;
 }
+
+
+/*For Side Nav Bar */
 
 ul.Icon-side-bar {
     padding: 10;
@@ -72,6 +76,211 @@ img.user-pro {
     border: 20px solid #333b78c7;
 }
 
+.h5 {
+    font-size: 17px;
+    color: rgb(224, 219, 219);
+}
+
+
+/*For Contact Side*/
+
+.side-bar {
+    width: 380px;
+    background-color: #f5f7fb;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chat-head {
+    font-size: 26px;
+    margin: 0 0 30px;
+    color: #495150;
+    line-height: 1.9;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 600;
+}
+
+.Chat {
+    margin: 0 10px;
+    width: 100%;
+    /* margin: 0 0 30px; */
+}
+
+.chat-contact {
+    width: 385px;
+    background-color: #f5f7fb;
+    position: fixed;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 100%;
+    left: 75px;
+    /* padding: 87px; */
+}
+
+.Title-Chat {
+    width: 380px;
+    padding: 28px;
+    /* box-sizing: border-box; */
+}
+
+.searchTerm {
+    font-size: 19px;
+}
+
+.search-bbox {
+    padding: 11px 9px 1px 20px;
+    /* align-items: center; */
+    /* font-size: 8px; */
+    /* border: 0px solid #e6ebf5; */
+    width: auto;
+    float: left;
+    margin-right: -9px;
+    /* border-left: none; */
+    border-radius: 7px;
+    background: #e6ebf5;
+    height: 53px;
+    /* margin-bottom: 100px; */
+}
+
+.searchTerm {
+    /* border: 3px solid #e6ebf5; */
+    background: #e6ebf5;
+    font-size: 18px;
+    outline: none;
+    /* font-weight: 100; */
+    /* font-size: 19px; */
+    border-radius: 7px;
+    padding: 10px 20px;
+    height: 53px;
+    /* align-items: center; */
+    border: none;
+}
+
+.search-icon {
+    border: 0px solid #e6ebf5;
+    /* float: right; */
+    width: auto;
+    font-size: 17px;
+    /* border-top-right-radius: 0; */
+    /* border-bottom-right-radius: 0; */
+    padding: 4px 4px;
+    /* border-radius: 7px; */
+    /* border: 3px solid #e6ebf5; */
+    background: #e6ebf5;
+    color: #a2a2a2;
+    /* font-size: 17px; */
+    /* border-left: none; */
+    cursor: pointer;
+}
+
+.search-bbox:active {
+    border: 1px solid #333b78c7;
+}
+
+.contacts {
+    /* display: flex; */
+    /* direction: ltr; */
+    /* height: 100%; */
+    /* width: 100%; */
+    padding-left: 0;
+    padding-right: 0;
+    /* background-color: #2d0707; */
+    /* flex-direction: row; */
+}
+
+.pic-container {
+    transition: transform 2ms step-start 3s;
+    transform: translate3d(-10px, -12px, 1px);
+    display: flex;
+    /* background-color: red; */
+    overflow: auto;
+    /* margin-bottom: 0; */
+    padding: 0px -20px;
+    /* margin: -1px 30px 30px; */
+    /* justify-content: space-between; */
+    /* flex-wrap: nowrap; */
+    /* white-space: nowrap; */
+    /* height: 80px; */
+    /* width: 320px; */
+}
+
+.user-status-box {
+    background-color: #e6ebf5;
+    /* padding: 8px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 88px;
+    /* height: 28px; */
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+}
+
+.user-imge {
+    width: 44px;
+    height: 44px;
+    /* padding: 3px; */
+    margin-top: -9px;
+    border-radius: 50%;
+}
+
+.list-item {
+    width: 71px;
+    margin: 0px 8px;
+    height: 72px;
+}
+
+.item {
+    /* line-height: normal; */
+    width: 100%;
+    /* justify-content: space-around; */
+    margin: 0px 6px;
+    margin-top: -3px;
+}
+
+.User-Anchor {
+    background: #e6ebf5;
+    margin: 16px 0px 0px;
+    padding: 8px;
+    width: 65PX;
+    height: 71px;
+}
+
+.photo-user {
+    /* vertical-align: middle; */
+    margin-top: -9px;
+}
+
+.pic-container.margee {
+    margin: 20px;
+    /* box-sizing: content-box; */
+}
+
+.pic-container-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.Recent {
+    font-size: 14px;
+    background: #f5f7fb;
+    margin: 0 0 30px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+
+
+/*
+.pic-container::-webkit-scrollbar {
+    width: 0;
+}
+*/
+
 @media (max-width: 991px) {
     .side-menu-bar {
         align-items: center;
@@ -102,11 +311,10 @@ img.user-pro {
     .nav-dark {
         display: none;
     }
-    .nav-item {
-        width: 100px;
-        height: 100px;
-    }
     .Curentt {
+        display: flex;
+        width: 120px;
+        height: 100px;
         padding: 5PX;
     }
     .global {
